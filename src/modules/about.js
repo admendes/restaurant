@@ -8,7 +8,7 @@ function createAbout() {
 
     const aboutImage = document.createElement("img");
     aboutImage.setAttribute("id", "about-image");
-    aboutImage.src = "./../dist/images/about.jpg";
+    aboutImage.src = "./images/about.jpg";
     aboutImage.alt = "About"
 
     const paragraph = document.createElement("p");
