@@ -8,7 +8,7 @@ function createHeader() {
 
     const headerText = document.createElement("h1");
     headerText.setAttribute("id", "header-text");
-    headerText.textContent ="Title this is";
+    headerText.textContent ="Pasta Restoranti";
     header.appendChild(headerText);
 
     return header;
@@ -20,7 +20,8 @@ function createFooter() {
 
     const footerText = document.createElement("h5");
     footerText.setAttribute("id", "footer-text");
-    footerText.textContent ="footer text this is";
+    footerText.textContent ="Website made by admendes";
+
     footer.appendChild(footerText);
 
     return footer;
@@ -68,6 +69,8 @@ function loadWebsite() {
     content.appendChild(createFooter());
     content.appendChild(createNav());
     content.appendChild(createMain());
+
+    loadHome();
 }
 
 export default loadWebsite;

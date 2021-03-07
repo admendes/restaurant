@@ -13,6 +13,13 @@ function createHome() {
     home.appendChild(title);
     home.appendChild(paragraph);
 
+    const homeButton = document.getElementById("button-home");
+    homeButton.classList.add("clicked");
+    const menuButton = document.getElementById("button-menu");
+    menuButton.classList.remove("clicked");
+    const aboutButton = document.getElementById("button-about");
+    aboutButton.classList.remove("clicked");
+
     return home;
 }
 

@@ -13,6 +13,13 @@ function createMenu() {
     menu.appendChild(title);
     menu.appendChild(paragraph);
 
+    const homeButton = document.getElementById("button-home");
+    homeButton.classList.remove("clicked");
+    const menuButton = document.getElementById("button-menu");
+    menuButton.classList.add("clicked");
+    const aboutButton = document.getElementById("button-about");
+    aboutButton.classList.remove("clicked");
+
     return menu;
 }
 

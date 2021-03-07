@@ -13,6 +13,13 @@ function createAbout() {
     about.appendChild(title);
     about.appendChild(paragraph);
 
+    const homeButton = document.getElementById("button-home");
+    homeButton.classList.remove("clicked");
+    const menuButton = document.getElementById("button-menu");
+    menuButton.classList.remove("clicked");
+    const aboutButton = document.getElementById("button-about");
+    aboutButton.classList.add("clicked");
+
     return about;
 }
 
