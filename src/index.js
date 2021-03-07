@@ -1,6 +1,6 @@
-import init from './modules/website.js';
+import loadWebsite from "./modules/website.js";
 
-init();
+loadWebsite();
 
 
 

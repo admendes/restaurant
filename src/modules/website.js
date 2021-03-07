@@ -1,3 +1,7 @@
+import loadAbout from "./about";
+import loadHome from "./home";
+import loadMenu from "./menu";
+
 function createHeader() {
     const header = document.createElement("header");
     header.classList.add("header");
@@ -30,16 +34,19 @@ function createNav() {
     homeButton.setAttribute("id", "button-home");
     homeButton.classList.add("nav-button");
     homeButton.textContent = "Home";
+    homeButton.addEventListener('click', loadHome);
 
     const menuButton = document.createElement("button");
     menuButton.setAttribute("id", "button-menu");
     menuButton.classList.add("nav-button");
     menuButton.textContent = "Menu";
+    menuButton.addEventListener('click', loadMenu);
 
     const aboutButton = document.createElement("button");
     aboutButton.setAttribute("id", "button-about");
     aboutButton.classList.add("nav-button");
     aboutButton.textContent = "About";
+    aboutButton.addEventListener('click', loadAbout);
 
     nav.appendChild(homeButton);
     nav.appendChild(menuButton);
@@ -54,7 +61,7 @@ function createMain() {
     return main;
 }
 
-function init() {
+function loadWebsite() {
     const content = document.getElementById("content");
 
     content.appendChild(createHeader());
@@ -63,4 +70,4 @@ function init() {
     content.appendChild(createMain());
 }
 
-export default init();
+export default loadWebsite;
