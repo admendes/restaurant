@@ -5,6 +5,8 @@ body {
     background-attachment: fixed;
     background-size: cover;
     color: rgb(226, 204, 9);
+    min-width: 720px;
+
 }
   
 .header {
@@ -101,7 +103,8 @@ button:hover, .clicked {
 }
 
 #menu {
-    margin-left: 50px;
+    margin-left: 6%;
+    min-width: 500px;
     display: grid;
     grid-template-rows: repeat(4, auto);
     grid-template-columns: repeat(2, auto);
