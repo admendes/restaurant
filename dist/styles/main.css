@@ -1,0 +1,43 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+  
+.header {
+    padding: 10px;
+    text-align: center;
+    background: #1c463d;
+    color: white;
+    font-size: 30px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1c463d;
+    color: white;
+    text-align: center;
+}
+
+#header-text {
+    color: rgb(48, 75, 161);
+}
+
+#footer-text {
+    text-align: center;
+    color: rgb(140, 161, 48);
+}
+
+#nav {
+    text-align: center;
+    height: 50px;
+
+    background-color: rgba(145, 16, 16, 0.9);
+}
+
+#main {
+    background-color: aquamarine;
+    padding: 20px;
+}
