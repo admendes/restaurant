@@ -61,7 +61,6 @@ function init() {
     content.appendChild(createFooter());
     content.appendChild(createNav());
     content.appendChild(createMain());
-    console.log("yutp")
 }
 
 export default init();
