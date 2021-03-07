@@ -15,19 +15,19 @@ function createMenu() {
 
     const menuImg1 = document.createElement("img");
     menuImg1.classList.add("menu-image");
-    menuImg1.src = "./dist/images/menu1.jpeg";
+    menuImg1.src = "./../dist/images/menu1.jpeg";
 
     const menuImg2 = document.createElement("img");
     menuImg2.classList.add("menu-image");
-    menuImg2.src = "./dist/images/menu2.jpg";
+    menuImg2.src = "./../dist/images/menu2.jpg";
 
     const menuImg3 = document.createElement("img");
     menuImg3.classList.add("menu-image");
-    menuImg3.src = "./dist/images/menu3.jpg";
+    menuImg3.src = "./../dist/images/menu3.jpg";
 
     const menuImg4 = document.createElement("img");
     menuImg4.classList.add("menu-image");
-    menuImg4.src = "./dist/images/menu4.jpg";
+    menuImg4.src = "./../dist/images/menu4.jpg";
 
     const menuText1 = document.createElement("p");
     menuText1.classList.add("menu-text");
