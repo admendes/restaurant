@@ -4,13 +4,19 @@ function createHome() {
     
     const title = document.createElement("h2");
     title.setAttribute("id", "home-title");
-    title.textContent = "This is the home title";
+    title.textContent = "Home";
+
+    const menuImage = document.createElement("img");
+    menuImage.setAttribute("id", "home-image");
+    menuImage.src = "../dist/images/home.jpeg";
+    menuImage.alt = "Home"
 
     const paragraph = document.createElement("p");
     paragraph.setAttribute("id", "home-paragraph");
-    paragraph.textContent = "asdoaoidsjo aosdoia sjoidjaoidj aiosdjiaso jdioaj doiajsdoi ajsodijasio djaisodjaosijdaosidjaosidj aoisdj aoidjoa0";
+    paragraph.textContent = "Very good restaurant. Try our food!";
 
-    home.appendChild(title);
+    //home.appendChild(title);
+    home.appendChild(menuImage);
     home.appendChild(paragraph);
 
     const homeButton = document.getElementById("button-home");

@@ -20,7 +20,7 @@ function createFooter() {
 
     const footerText = document.createElement("h5");
     footerText.setAttribute("id", "footer-text");
-    footerText.textContent ="Website made by admendes";
+    footerText.textContent ="Website by admendes";
 
     footer.appendChild(footerText);
 
