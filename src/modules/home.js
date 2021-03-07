@@ -8,7 +8,7 @@ function createHome() {
 
     const menuImage = document.createElement("img");
     menuImage.setAttribute("id", "home-image");
-    menuImage.src = "../dist/images/home.jpeg";
+    menuImage.src = "./dist/images/home.jpeg";
     menuImage.alt = "Home"
 
     const paragraph = document.createElement("p");
